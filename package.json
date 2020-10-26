@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-tailwind",
+  "version": "1.0.0",
+  "description": "Uses TailwindCSS in Node.js with Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind:css": "postcss public/styles/tailwind.css -o public/styles/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "express": "^4.17.1",
+    "postcss": "^8.1.2",
+    "pug": "^3.0.0",
+    "tailwindcss": "^1.9.5"
+  }
+}
