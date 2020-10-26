@@ -13,6 +13,7 @@
     "autoprefixer": "^10.0.1",
     "express": "^4.17.1",
     "postcss": "^8.1.2",
+    "postcss-cli": "^8.1.0",
     "pug": "^3.0.0",
     "tailwindcss": "^1.9.5"
   }
